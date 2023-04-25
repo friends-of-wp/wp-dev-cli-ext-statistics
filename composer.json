@@ -1,0 +1,12 @@
+{
+  "name": "friends-of-wp/wp-dev-cli-ext-statistics",
+  "description": "WP DevCli Extension that shows WordPress statistics.",
+  "require": {
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FriendsOfWp\\WordPressStatsDevCliExtension\\": "src/"
+    }
+  }
+}
